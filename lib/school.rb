@@ -21,7 +21,7 @@ class School
 
   def sort
     roster.each do |level, students|
-      roster[level].sort
+      roster[level].sort!
     end
   end
 
