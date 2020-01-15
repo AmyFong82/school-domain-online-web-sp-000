@@ -21,10 +21,6 @@ class School
 
   def sort
     roster.each do |level, students|
-      level.arrange do |a, b|
-        a <=> b
-      end
-    end
   end
 
 end
