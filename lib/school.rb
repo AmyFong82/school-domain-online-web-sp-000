@@ -19,10 +19,4 @@ class School
     roster[num].sort
   end
 
-  def sort
-    roster.each do |level, students|
-      roster.grade(level)
-    end
-  end
-
 end
