@@ -19,4 +19,8 @@ class School
     roster[num]
   end
 
+  def sort
+    roster.each.sort
+  end
+
 end
